@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+
+camunda:
+  bpm:
+    admin-user:
+      id: lame
+      password: lame
+    authorization:
+      enabled: true
+    history-level: full
+
+logging:
+  level:
+    org.springframework.mail: DEBUG
+    com.sun.mail: DEBUG
